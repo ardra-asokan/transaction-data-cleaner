@@ -1,0 +1,20 @@
+{
+    "input_rows": 73,
+    "valid_rows": 56,
+    "invalid_rows": 17,
+    "duplicate_counts": {
+        "repeated_transaction_id_rows": 2,
+        "possible_duplicate_real_world_rows": 1
+    },
+    "total_revenue": "85206.00",
+    "revenue_definition": "Valid paid transactions, excluding duplicate records.",
+    "issue_counts": {
+        "duplicate_transaction_id": 2,
+        "invalid_amount": 4,
+        "invalid_date": 4,
+        "missing_amount": 2,
+        "missing_customer_name": 1,
+        "non_positive_amount": 3,
+        "possible_duplicate_real_world_transaction": 1
+    }
+}
